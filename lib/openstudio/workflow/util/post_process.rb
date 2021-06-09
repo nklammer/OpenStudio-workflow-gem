@@ -226,7 +226,7 @@ module OpenStudio
           # paths_to_rm << Pathname.glob("*.audit")
           # paths_to_rm << Pathname.glob("*.bnd")
           # paths_to_rm << Pathname.glob("#{run_dir}/*.eso")
-          paths_to_rm << Pathname.glob("#{run_dir}/*.mtr")
+          # paths_to_rm << Pathname.glob("#{run_dir}/*.mtr")
           paths_to_rm << Pathname.glob("#{run_dir}/*.epw")
           # paths_to_rm << Pathname.glob("#{run_dir}/*.mtd")
           # paths_to_rm << Pathname.glob("#{run_dir}/*.rdd")
